@@ -1,0 +1,125 @@
+/*
+Sign Up
+signup.css
+William Seto
+2018-1-25
+*/
+
+body {
+    margin: 0 auto;
+    background-color: rgba(172, 167, 167, 0.445)
+}
+
+#main {
+    margin: 2em auto 2em auto;
+    width: 700px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 0 15px;
+}
+
+.section {
+    background-color: rgb(247, 247, 247);
+    width: 650px;
+    margin: 1em auto 1em auto;
+    padding-bottom: 25px;
+}
+
+p {
+    color: rgb(204, 37, 37);
+    padding-left: 25px;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding-top: 17px;
+    padding-left: 25px;
+    text-shadow: 0 0 7px black;
+}
+
+h2 {
+    width: 600px;
+    padding-left: 25px;
+    text-shadow: 1px 1px 4px rgb(185, 185, 185);
+}
+
+h3 {
+    background-color: #CCC;
+    padding-left: 10px;
+}
+
+.user_input, #div_education_status {
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 3px;
+    margin: 8px 5px 8px 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+#div_education_status {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+.label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+button {
+    border-radius: 10px;
+    margin: 8px;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.input_area {
+    padding-top: 10px;
+}
+
+legend {
+    padding-right: 10px;
+}
+
+span {
+    font-size: 0.65em;
+}
+
+.error {
+    width: 200px;
+    font-size: xx-small;
+    color: grey;
+    text-shadow: 1px 1px 2px gainsboro;
+    vertical-align: top;
+}
+
+.x {
+    color: red;
+    vertical-align: top;
+}
+
+.error_container {
+    display: none;
+    position: relative;
+    left: 165px;
+}
